@@ -5,7 +5,21 @@ git commit -m "first commit"
 git branch -M main
 git remote add origin git@github.com:Ashan001/kitchenhub.git
 git push -u origin main
+
 push an existing repository from the command line
 git remote add origin git@github.com:Ashan001/kitchenhub.git
 git branch -M main
 git push -u origin main
+
+to Pull
+mkdir git_demo
+cd git_demo
+git init
+git pull https://github.com/Ashan001/kitchenhub.git
+git status
+git add .
+git commit -m "changes made"
+git remote add origin https://github.com/Ashan001/kitchenhub.git
+git remote -v
+git push -u origin master
+
